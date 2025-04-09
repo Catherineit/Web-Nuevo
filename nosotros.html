@@ -7,10 +7,13 @@
     <title>Sobre Nosotros - TechHome</title>
     <link rel="icon" href="img/Favicon.jpg" type="image/jpg">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Enlace a Bootstrap 4.5.3 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <div class="header-container"> <!-- Contenedor para el logo y la barra de navegación -->
         <div class="logo">
             <img src="img/LogoEmpresa.jpg" alt="Logo de la Empresa">
         </div>
@@ -18,31 +21,78 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="nosotros.html" class="active">Nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>                
             </ul>
         </nav>
     </header>
     <main>
-        <section class="sobre-nosotros">
-            <h1>Sobre Nosotros</h1>
-            <p>TechHome es una empresa chilena dedicada a la venta de productos tecnológicos, ofreciendo una amplia gama de dispositivos y accesorios electrónicos.</p>
-            <h2>Nuestra Misión</h2>
-            <p>Brindar a nuestros clientes productos de alta calidad y un servicio excepcional.</p>
-            <h2>Nuestra Visión</h2>
-            <p>Ser líderes en el mercado de tecnología en Chile, reconocidos por nuestra innovación y atención al cliente.</p>
-            <h2>Valores</h2>
-            <ul>
-                <li>Calidad</li>
-                <li>Innovación</li>
-                <li>Compromiso</li>
-                <li>Transparencia</li>
-            </ul>
-            <h2>Nuestra Historia</h2>
-            <p>Fundada en 2020, TechHome ha crecido rápidamente, estableciendo alianzas con marcas reconocidas y expandiendo su catálogo de productos.</p>
-            <h2>El Equipo</h2>
-            <p>Nuestro equipo está compuesto por profesionales apasionados por la tecnología, listos para ayudar a nuestros clientes a encontrar lo que necesitan.</p>
-            <img src="img/empresa TechHome.jpg" alt="Nuestro equipo">
+        <section class="sobre-nosotros py-5">
+            <div class="container">
+                <h1 class="text-center mb-5">Sobre Nosotros</h1>
+                <div class="row">
+                    <!-- Misión -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="img/Mision.jpg" class="card-img-top img-fluid" alt="Nuestra Misión">
+                            <div class="card-body">
+                                <h2 class="card-title">Nuestra Misión</h2>
+                                <p class="card-text">En TechHome, nuestra misión es mejorar la vida de las personas mediante el acceso fácil y confiable a la tecnología. Nos comprometemos a ofrecer productos innovadores, de alta calidad y con el mejor servicio, generando confianza y satisfacción en cada compra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Visión -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="img/Vision.jpg" class="card-img-top img-fluid" alt="Nuestra Visión">
+                            <div class="card-body">
+                                <h2 class="card-title">Nuestra Visión</h2>
+                                <p class="card-text">Ser la empresa líder en distribución de tecnología en América Latina, reconocida por su excelencia en atención al cliente, variedad de productos y compromiso con la innovación. Aspiramos a convertirnos en el puente entre las últimas tendencias tecnológicas y los hogares modernos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Valores -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="img/Valores.jpg" class="card-img-top img-fluid" alt="Nuestros Valores">
+                            <div class="card-body">
+                                <h2 class="card-title">Valores</h2>
+                                <ul class="card-text">
+                                    <li>Calidad</li>
+                                    <li>Innovación</li>
+                                    <li>Compromiso</li>
+                                    <li>Transparencia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Historia -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <img src="img/Historia.jpg" class="card-img-top img-fluid" alt="Nuestra Historia">
+                            <div class="card-body">
+                                <h2 class="card-title">Nuestra Historia</h2>
+                                <p class="card-text">TechHome nace en 2015 en Santiago de Chile, con la visión de acercar la tecnología de punta a todos los hogares del país. Fundada por un grupo de jóvenes apasionados por la innovación y el emprendimiento, la empresa comenzó como una pequeña tienda en línea, ofreciendo gadgets y accesorios tecnológicos a precios accesibles.</p>
+                                <p class="card-text">Con el paso del tiempo, TechHome fue ampliando su catálogo y consolidando alianzas con grandes marcas internacionales como Apple, Samsung, Xiaomi, y Microsoft. Gracias a un enfoque centrado en el cliente, logística eficiente y atención personalizada, logró expandirse a través de plataformas como Falabella y Sodimac, posicionándose como un referente en la venta de productos electrónicos y tecnología de consumo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Equipo -->
+                    <div class="col-md-12">
+                        <div class="card h-100">
+                            <img src="img/EquipoTrabajo.jpg" alt="Nuestro equipo" class="card-img-top img-fluid rounded">
+                            <div class="card-body text-center">
+                                <h2 class="card-title">El Equipo</h2>
+                                <p class="card-text">Nuestro equipo está compuesto por profesionales apasionados por la tecnología, listos para ayudar a nuestros clientes a encontrar lo que necesitan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
