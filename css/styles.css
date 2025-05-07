@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333; /*color encabezado */
+    background-color: #4B0082; /* Morado oscuro */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -63,7 +61,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333; /*color pie de pagina*/
+    background-color: #4B0082; /* Morado oscuro */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -263,3 +261,13 @@ footer {
     margin-bottom: 20vh; /* Espacio para el pie de página */
     
 }
+
+.about-us-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    max-width: 300px; /* Define un ancho máximo uniforme */
+    height: 200px; /* Define una altura fija */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño sin deformarse */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin: 0 auto; /* Centra las imágenes dentro de su contenedor */
+}
+
