@@ -287,3 +287,20 @@ footer {
     transition: transform 0.3s ease; /* Efecto de transición al pasar el ratón */   
     
 }
+
+/* Mover el logo a la izquierda */
+.header-container .logo {
+    float: left; /* Mueve el logo a la izquierda */
+    margin-right: 20px; /* Espacio entre el logo y el contenido siguiente */
+    display: flex; /* Permite centrar el logo verticalmente */
+    align-items: center; /* Centra el logo verticalmente */
+    justify-content: center; /* Centra el logo horizontalmente */
+    height: 100%; /* Asegura que el logo ocupe toda la altura del contenedor */
+    width: 100%; /* Asegura que el logo ocupe toda la anchura del contenedor */
+    max-width: 100px; /* Limita el ancho máximo del logo */
+    max-height: 100px; /* Limita la altura máxima del logo */
+    margin: 0 auto; /* Centra el logo dentro de su contenedor */
+    padding: 10px; /* Espacio alrededor del logo */
+    background-color: #4B0082; /* Morado oscuro */
+    border-radius: 50%; /* Bordes redondeados */
+}
