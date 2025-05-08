@@ -140,6 +140,12 @@ footer {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
+  /* Estilo para las imágenes del carrusel */
+  .carousel-inner img {
+    height: 300px; /* Altura fija */
+    object-fit: cover; /* Recorta la imagen para que se ajuste sin deformarse */
+    border-radius: 10px; /* Bordes redondeados */
+  }
 
   /*diseño para redes sociales al pie de la pagina */ 
   .redes-sociales {
@@ -271,3 +277,13 @@ footer {
     margin: 0 auto; /* Centra las imágenes dentro de su contenedor */
 }
 
+/* Agrandar las imágenes del carrusel */
+#carouselProductos .carousel-inner img {
+    height: 600px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    border-radius: 10px; /* Bordes redondeados */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin: 0 auto; /* Centra las imágenes dentro de su contenedor */
+    transition: transform 0.3s ease; /* Efecto de transición al pasar el ratón */   
+    
+}
